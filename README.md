@@ -21,16 +21,18 @@ On Sugar desktop systems;
 How to integrate?
 =================
 
-Sin-Dientes activity is started by [Sugar](https://github.com/sugarlabs/sugar).
+Sin-Dientes-activity depends on Python, [Sugar Toolkit for GTK+ 3](https://github.com/sugarlabs/sugar-toolkit-gtk3), and GTK+ 3.
+
+Sin-Dientes-activity is started by [Sugar](https://github.com/sugarlabs/sugar).
 
 Reporting Bugs
---------------
+==============
 
 Bugs can be reported in the
 [issues tab](https://github.com/sugarlabs/sin-dientes-activity/issues)
 of this repository.
 
 Contributing
-------------
+============
 
 Please [contribute](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md) to the project with your ideas and your code.
