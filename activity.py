@@ -201,7 +201,7 @@ class Sindiente(activity.Activity):
         self.pista_label.modify_font(self.modificar_text)
         self.pista = Gtk.Label()
         self.pista.set_line_wrap(True)
-        #self.pista.set_max_width_chars(0)
+        self.pista.set_max_width_chars(30)
         self.letrasusadas_label = Gtk.Label()
         self.letrasusadas_label_2 = Gtk.Label()
         self.letrasusadas_label_2.modify_font(self.modificar_text)
