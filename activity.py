@@ -331,7 +331,13 @@ class Sindiente(activity.Activity):
         self.archivo.set_extra_widget(self.importar)
 
         #interface categoria personalizada NONE
-        self.sin_importar = Gtk.Label(label=_('No se ha importado ninguna lista de palabras para crear una categoría personalizada'))
+
+        self.lab = Gtk.Label(label=_('No se ha importado ninguna lista de palabras para crear una categoría personalizada'))
+        self.atras_btn_fix = Gtk.Button(_('Atrás'))
+        self.atras_btn_fix.connect('clicked', self._atras_cb)
+        self.sin_importar = Gtk.VBox()
+        self.sin_importar.pack_start(self.lab, False, True, 250)
+        self.sin_importar.pack_start(self.atras_btn_fix, False, True, 50)
          
         self.show()
 
