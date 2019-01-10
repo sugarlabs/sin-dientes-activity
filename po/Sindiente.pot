@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-06 11:10-0600\n"
+"POT-Creation-Date: 2019-01-10 15:05+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,111 +21,75 @@ msgstr ""
 msgid "Sin diente"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:21
+#: activity/activity.info:3
+msgid ""
+"Word game similar to hangman but without violence. If you are wrong, your "
+"character loses a tooth."
+msgstr ""
+
+#: activity.py:27
 msgid "Sin Dientes"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:62
+#: activity.py:83
 msgid "Elegir"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:77
+#: activity.py:98
 msgid "Elige un personaje"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:117
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:286
-msgid "Animales"
-msgstr ""
-
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:119
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:287
-msgid "Plantas"
-msgstr ""
-
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:121
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:288
-msgid "Países"
-msgstr ""
-
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:123
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:289
-msgid "Sustantivos"
-msgstr ""
-
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:125
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:290
-msgid "Verbos"
-msgstr ""
-
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:127
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:291
-msgid "Cosas"
-msgstr ""
-
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:129
-msgid "Valores Morales"
-msgstr ""
-
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:131
+#: activity.py:157
 msgid "Agregar lista de palabra"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:133
+#: activity.py:159
 msgid "Instrucciones de juego"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:135
+#: activity.py:161
 msgid "Modo Versus"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:137
+#: activity.py:163
 msgid "Cambiar personaje"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:139
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:293
-msgid "Categoría Personalizada"
-msgstr ""
-
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:141
+#: activity.py:167
 msgid "Bienvenido a \"Sin Diente\""
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:185
+#: activity.py:214
 msgid "Ingresar"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:187
+#: activity.py:216
 msgid "Nuevo Juego"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:189
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:236
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:267
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:295
+#: activity.py:218 activity.py:265 activity.py:296 activity.py:324
+#: activity.py:341
 msgid "Atrás"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:194
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:230
+#: activity.py:259
 msgid "Instrucciones"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:232
+#: activity.py:261
 msgid ""
 "Oprime el botón “Nuevo Juego” para empezar a \n"
 "jugar."
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:233
+#: activity.py:262
 msgid ""
 "La lineas representan las letras de las palabras \n"
 "que están ocultas. Cuenta las letras se compone \n"
 "la palabra."
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:234
+#: activity.py:263
 msgid ""
 "Ingresa una letra en el espacio en blanco y oprime \n"
 "el botón “Ingresar”. Si descubres una letra esta \n"
@@ -133,88 +97,83 @@ msgid ""
 "Pero si fallas, tu amigo perderá un diente."
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:235
+#: activity.py:264
 msgid ""
 "Las letras que ya han sido ingresadas no podrán ser \n"
 "usada de nuevo y aparecerán en el área de \"Letras Usadas\""
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:257
+#: activity.py:286
 msgid "Ingresa una palabra para jugar"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:259
+#: activity.py:288
 msgid "Palabra"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:260
+#: activity.py:289
 msgid "Significado"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:261
+#: activity.py:290
 msgid "Pista"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:265
+#: activity.py:294
 msgid "Ingresar palabra"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:292
-msgid "Valores morales"
-msgstr ""
-
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:297
+#: activity.py:326
 msgid "Importar"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:301
+#: activity.py:330
 msgid "Categorías"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:310
+#: activity.py:340
 msgid ""
 "No se ha importado ninguna lista de palabras para crear una categoría "
 "personalizada"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:346
+#: activity.py:381
 msgid "Nuevo juego"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:373
+#: activity.py:408
 msgid "El juego ha empezado"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:551
+#: activity.py:594
 msgid "Introduzca solo una letra!"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:564
+#: activity.py:608
 msgid ""
 "FELICIDADES!\n"
 "Acertastes la palabra secreta"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:565
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:586
+#: activity.py:609 activity.py:630
 msgid "Significado:"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:585
+#: activity.py:629
 #, python-format
 msgid ""
 "Fin de Juego\n"
 "La palabra secreta era %s"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:602
+#: activity.py:646
 msgid "Pista:"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:610
+#: activity.py:654
 msgid "Letras usadas:"
 msgstr ""
 
-#: /home/yader/Documentos/sin_dientes/sin_dientes/activity.py:612
+#: activity.py:656
 msgid "Errores:"
 msgstr ""
