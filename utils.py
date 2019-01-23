@@ -9,6 +9,7 @@ def palabra_aleatoria(path, nivel):
     path = path + 'nivel%s.palabra' %(nivel)
     archivo = open(path,'r')
     palabras = [palabra.lower() for palabra in archivo.readlines()]
+    palabras.pop(0)
     archivo.close()   
     palabra_random = palabras[random.randint(0, len(palabras)-1)]    
     log.debug(palabra_random)

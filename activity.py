@@ -134,31 +134,32 @@ class Sindiente(activity.Activity):
         self.set_canvas(self.elegir_personaje_v)
 
         #importing categories 
-        categoria_nivel_1 = open('resources/nivel1.palabra')
+
+        categoria_nivel_1 = open(self.sugar_data + 'nivel1.palabra')
         palabras_nivel_1 = categoria_nivel_1.readlines()
         palabras_nivel_1 = map(lambda s: s.strip(), palabras_nivel_1)
 
-        categoria_nivel_2 = open('resources/nivel2.palabra')
+        categoria_nivel_2 = open(self.sugar_data + 'nivel2.palabra')
         palabras_nivel_2 = categoria_nivel_2.readlines()
         palabras_nivel_2 = map(lambda s: s.strip(), palabras_nivel_2)
 
-        categoria_nivel_3 = open('resources/nivel3.palabra')
+        categoria_nivel_3 = open(self.sugar_data + 'nivel3.palabra')
         palabras_nivel_3 = categoria_nivel_3.readlines()
         palabras_nivel_3 = map(lambda s: s.strip(), palabras_nivel_3)
 
-        categoria_nivel_4 = open('resources/nivel4.palabra')
+        categoria_nivel_4 = open(self.sugar_data + 'nivel4.palabra')
         palabras_nivel_4 = categoria_nivel_4.readlines()
         palabras_nivel_4 = map(lambda s: s.strip(), palabras_nivel_4)
 
-        categoria_nivel_5 = open('resources/nivel5.palabra')
+        categoria_nivel_5 = open(self.sugar_data + 'nivel5.palabra')
         palabras_nivel_5 = categoria_nivel_5.readlines()
         palabras_nivel_5 = map(lambda s: s.strip(), palabras_nivel_5)
 
-        categoria_nivel_6 = open('resources/nivel6.palabra')
+        categoria_nivel_6 = open(self.sugar_data + 'nivel6.palabra')
         palabras_nivel_6 = categoria_nivel_6.readlines()
         palabras_nivel_6 = map(lambda s: s.strip(), palabras_nivel_6)
 
-        categoria_nivel_7 = open('resources/nivel7.palabra')
+        categoria_nivel_7 = open(self.sugar_data + 'nivel7.palabra')
         palabras_nivel_7 = categoria_nivel_7.readlines()
         palabras_nivel_7 = map(lambda s: s.strip(), palabras_nivel_7)
 
