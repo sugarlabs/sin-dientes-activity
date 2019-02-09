@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-10 15:05+0530\n"
+"POT-Creation-Date: 2019-02-09 18:08+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,57 +39,61 @@ msgstr ""
 msgid "Elige un personaje"
 msgstr ""
 
-#: activity.py:157
+#: activity.py:182
 msgid "Agregar lista de palabra"
 msgstr ""
 
-#: activity.py:159
+#: activity.py:184
 msgid "Instrucciones de juego"
 msgstr ""
 
-#: activity.py:161
+#: activity.py:186
 msgid "Modo Versus"
 msgstr ""
 
-#: activity.py:163
+#: activity.py:188
 msgid "Cambiar personaje"
 msgstr ""
 
-#: activity.py:167
+#: activity.py:190 activity.py:347
+msgid "Categoría Personalizada"
+msgstr ""
+
+#: activity.py:192
 msgid "Bienvenido a \"Sin Diente\""
 msgstr ""
 
-#: activity.py:214
+#: activity.py:239
 msgid "Ingresar"
 msgstr ""
 
-#: activity.py:216
+#: activity.py:241
 msgid "Nuevo Juego"
 msgstr ""
 
-#: activity.py:218 activity.py:265 activity.py:296 activity.py:324
-#: activity.py:341
+#: activity.py:243 activity.py:290 activity.py:321 activity.py:349
+#: activity.py:366
 msgid "Atrás"
 msgstr ""
 
-#: activity.py:259
+#: activity.py:284
 msgid "Instrucciones"
 msgstr ""
 
-#: activity.py:261
+#: activity.py:286
 msgid ""
 "Oprime el botón “Nuevo Juego” para empezar a \n"
 "jugar."
 msgstr ""
 
-#: activity.py:262
+#: activity.py:287
 msgid ""
 "La lineas representan las letras de las palabras \n"
 "que están ocultas. Cuenta las letras se compone \n"
 "la palabra."
 msgstr ""
 
-#: activity.py:263
+#: activity.py:288
 msgid ""
 "Ingresa una letra en el espacio en blanco y oprime \n"
 "el botón “Ingresar”. Si descubres una letra esta \n"
@@ -97,83 +101,83 @@ msgid ""
 "Pero si fallas, tu amigo perderá un diente."
 msgstr ""
 
-#: activity.py:264
+#: activity.py:289
 msgid ""
 "Las letras que ya han sido ingresadas no podrán ser \n"
 "usada de nuevo y aparecerán en el área de \"Letras Usadas\""
 msgstr ""
 
-#: activity.py:286
+#: activity.py:311
 msgid "Ingresa una palabra para jugar"
 msgstr ""
 
-#: activity.py:288
+#: activity.py:313
 msgid "Palabra"
 msgstr ""
 
-#: activity.py:289
+#: activity.py:314
 msgid "Significado"
 msgstr ""
 
-#: activity.py:290
+#: activity.py:315
 msgid "Pista"
 msgstr ""
 
-#: activity.py:294
+#: activity.py:319
 msgid "Ingresar palabra"
 msgstr ""
 
-#: activity.py:326
+#: activity.py:351
 msgid "Importar"
 msgstr ""
 
-#: activity.py:330
+#: activity.py:355
 msgid "Categorías"
 msgstr ""
 
-#: activity.py:340
+#: activity.py:365
 msgid ""
 "No se ha importado ninguna lista de palabras para crear una categoría "
 "personalizada"
 msgstr ""
 
-#: activity.py:381
+#: activity.py:406
 msgid "Nuevo juego"
 msgstr ""
 
-#: activity.py:408
+#: activity.py:433
 msgid "El juego ha empezado"
 msgstr ""
 
-#: activity.py:594
+#: activity.py:619
 msgid "Introduzca solo una letra!"
 msgstr ""
 
-#: activity.py:608
+#: activity.py:633
 msgid ""
 "FELICIDADES!\n"
 "Acertastes la palabra secreta"
 msgstr ""
 
-#: activity.py:609 activity.py:630
+#: activity.py:634 activity.py:655
 msgid "Significado:"
 msgstr ""
 
-#: activity.py:629
+#: activity.py:654
 #, python-format
 msgid ""
 "Fin de Juego\n"
 "La palabra secreta era %s"
 msgstr ""
 
-#: activity.py:646
+#: activity.py:671
 msgid "Pista:"
 msgstr ""
 
-#: activity.py:654
+#: activity.py:679
 msgid "Letras usadas:"
 msgstr ""
 
-#: activity.py:656
+#: activity.py:681
 msgid "Errores:"
 msgstr ""
