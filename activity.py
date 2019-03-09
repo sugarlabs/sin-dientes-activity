@@ -158,31 +158,31 @@ class Sindiente(activity.Activity):
 
         categoria_nivel_1 = open(self.sugar_data + 'nivel1.palabra')
         palabras_nivel_1 = categoria_nivel_1.readlines()
-        palabras_nivel_1 = map(lambda s: s.strip(), palabras_nivel_1)
+        palabras_nivel_1 = [s.strip() for s in palabras_nivel_1]
 
         categoria_nivel_2 = open(self.sugar_data + 'nivel2.palabra')
         palabras_nivel_2 = categoria_nivel_2.readlines()
-        palabras_nivel_2 = map(lambda s: s.strip(), palabras_nivel_2)
+        palabras_nivel_2 = [s.strip() for s in palabras_nivel_2]
 
         categoria_nivel_3 = open(self.sugar_data + 'nivel3.palabra')
         palabras_nivel_3 = categoria_nivel_3.readlines()
-        palabras_nivel_3 = map(lambda s: s.strip(), palabras_nivel_3)
+        palabras_nivel_3 = [s.strip() for s in palabras_nivel_3]
 
         categoria_nivel_4 = open(self.sugar_data + 'nivel4.palabra')
         palabras_nivel_4 = categoria_nivel_4.readlines()
-        palabras_nivel_4 = map(lambda s: s.strip(), palabras_nivel_4)
+        palabras_nivel_4 = [s.strip() for s in palabras_nivel_4]
 
         categoria_nivel_5 = open(self.sugar_data + 'nivel5.palabra')
         palabras_nivel_5 = categoria_nivel_5.readlines()
-        palabras_nivel_5 = map(lambda s: s.strip(), palabras_nivel_5)
+        palabras_nivel_5 = [s.strip() for s in palabras_nivel_5]
 
         categoria_nivel_6 = open(self.sugar_data + 'nivel6.palabra')
         palabras_nivel_6 = categoria_nivel_6.readlines()
-        palabras_nivel_6 = map(lambda s: s.strip(), palabras_nivel_6)
+        palabras_nivel_6 = [s.strip() for s in palabras_nivel_6]
 
         categoria_nivel_7 = open(self.sugar_data + 'nivel7.palabra')
         palabras_nivel_7 = categoria_nivel_7.readlines()
-        palabras_nivel_7 = map(lambda s: s.strip(), palabras_nivel_7)
+        palabras_nivel_7 = [s.strip() for s in palabras_nivel_7]
 
         #interface menu
         self.imagen_menu = Gtk.Image()
@@ -440,7 +440,7 @@ class Sindiente(activity.Activity):
             else:
                 contenido = utils.palabra_aleatoria(self.sugar_data, self.nivel)
                 _logger.warning(contenido)
-                self.palabra = unicode(contenido[0], "utf-8")
+                self.palabra = str(contenido[0])
                 self.texto_pista = contenido[1]
                 self.significado = contenido[2]
 
@@ -626,7 +626,7 @@ class Sindiente(activity.Activity):
 
         #Convierte la letra a minuscula
         letra_actual = self.palabra_entry.get_text().lower()
-        letra_actual = unicode(letra_actual, "utf-8")
+        letra_actual = str(letra_actual)
         #Divive en dos palabras
         if ' ' in self.palabra:
             longitud_palabra = len(self.palabra) - 1
