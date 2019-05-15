@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*- 
 
 # Sin-dientes-activity
 # Copyright (C) 2012, Yader Velásquez
