@@ -1,7 +1,7 @@
 [Activity]
 name = Sin diente 
 bundle_id = org.laptop.Sindiente
-exec = sugar-activity activity.Sindiente
+exec = sugar-activity3 activity.Sindiente
 icon = icono.sugar
 activity_version = 3 
 show_launcher = yes
