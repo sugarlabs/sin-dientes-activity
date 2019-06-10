@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 -*- 
+# -*- coding: UTF-8 -*-
 
 # Sin-dientes-activity
 # Copyright (C) 2012, Yader Velásquez
@@ -22,20 +22,21 @@
 import random
 import logging
 import os
-from gettext import gettext as _
 log = logging.getLogger('utils')
+
 
 def palabra_aleatoria(path, nivel):
     """retorna una palabra obtenida del archivo lista_palabras.txt"""
-    path = path + 'nivel%s.palabra' %(nivel)
-    archivo = open(path,'r')
+    path = path + 'nivel%s.palabra' % (nivel)
+    archivo = open(path, 'r')
     palabras = [palabra.lower() for palabra in archivo.readlines()]
     palabras.pop(0)
-    archivo.close()   
-    palabra_random = palabras[random.randint(0, len(palabras)-1)]    
+    archivo.close()
+    palabra_random = palabras[random.randint(0, len(palabras) - 1)]
     log.debug(palabra_random)
-    palabra_random = palabra_random.replace('"','')
+    palabra_random = palabra_random.replace('"', '')
     return palabra_random.split(':')
+
 
 def validar_uri(uri):
     log.debug('validar uri')
@@ -45,18 +46,20 @@ def validar_uri(uri):
     else:
         return 0
 
+
 def categoria_personalizada(path):
     if os.path.exists(path + 'nivel8.palabra'):
         return 8
     else:
         return 0
 
-def importar_lista_p(path ,uri, nivel):
+
+def importar_lista_p(path, uri, nivel):
     '''importa una nueva lista de palabras'''
     if validar_uri(uri):
         log.debug('palabra importada')
-        path = path + 'nivel%s.palabra' %(nivel + 1)
-        archivo = open(uri, 'r') #lee el archivo a exportar
+        path = path + 'nivel%s.palabra' % (nivel + 1)
+        archivo = open(uri, 'r')  # lee el archivo a exportar
         if (nivel + 1) is 8:
             archivo_viejo = open(path, 'w')
         else:
@@ -66,4 +69,3 @@ def importar_lista_p(path ,uri, nivel):
         archivo_viejo.write(texto)
         archivo_viejo.close()
         archivo.close()
-

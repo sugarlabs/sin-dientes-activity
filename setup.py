@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 -*- 
+# -*- coding: UTF-8 -*-
 
 # Sin-dientes-activity
 # Copyright (C) 2012, Yader Velásquez
@@ -21,5 +21,5 @@
 
 from sugar3.activity import bundlebuilder
 
-if __name__=="__main__":
+if __name__ == "__main__":
     bundlebuilder.start()
