@@ -479,7 +479,7 @@ class Sindiente(activity.Activity):
                 contenido = utils.palabra_aleatoria(
                     self.sugar_data, self.nivel)
                 _logger.warning(contenido)
-                self.palabra = str(contenido[0], "utf-8")
+                self.palabra = contenido[0]
                 self.texto_pista = contenido[1]
                 self.significado = contenido[2]
 
