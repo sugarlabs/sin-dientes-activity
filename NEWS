@@ -1,0 +1,4 @@
+Unreleased
+==========
+
+* Ignore word-list import when no file is selected.
